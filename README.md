@@ -1,26 +1,26 @@
 # Task 1 - Student Profile App
 
-🔍 Project Overview: The Feedback Application allows users to submit their feedback, along with a rating, which is then stored in a database for future reference. The application ensures data integrity and user input validation for a smooth and efficient feedback collection process.
+Designed and developed a Java-based GUI application that captures and stores student profile information using the following technologies :
 
-💻 Key Features :
-✅ User-friendly interface to enter feedback and rate services.
+✅ Java : Core programming language
+✅ Swing : For creating a user-friendly GUI
+✅ JDBC : For database connectivity
+✅ MySQL : To store student profiles
+
+💡Key Features :
+✅ User-friendly interface to enter student details.
 ✅ Form validation to ensure data integrity.
-✅ Dynamic star rating system for easy rating selection.
-✅ Stores feedback securely in a MySQL database.
-✅ Packaged with JSP for easy web deployment.
+✅ Stores data securely in a MySQL database.
+✅ Packaged as a JAR File for easy execution by just clicking the file.
 
-💡 Data Validations : 
-✅ Name: Ensures the name field is not empty, contains only alphabetic characters, and is not blank.
-✅ Feedback: Ensures the feedback field is at least 10 characters long.
-✅ Rating: Captured through an interactive star rating system.
+💡Data Validations :
+✅Name : Ensures the name field is not empty and contains only alphabetic characters.
+✅Phone Number : Ensures the phone number is field is not empty and contains exactly 10 digits long and numeric.
+✅Email : Ensures the email field is not empty and follows a valid email format.
+✅Gender : Ensures that either "Male" or "Female" is selected.
+✅Programming Languages : Ensures at least one programming language is selected.
 
-🛠️ Technologies Used :
-🔹Frontend : JSP (JavaServer Pages), HTML, CSS (for styling)
-🔹Backend : Java, MySQL
-🔹Database Connectivity : JDBC
-🔹Validation and Interactivity : JavaScript
-
-📜 How It Works:
-The application allows users to enter their name, rate the service using a star rating system, and provide detailed feedback. JavaScript ensures the inputs are valid before submission. Upon submission, the data is stored securely in a MySQL database using JDBC, and a thank you message is displayed to the user.
+💡How it Works:
+The application collects details such as the student's name, phone number, email, gender, and programming languages. It validates the input and then saves it to the database, ensuring a seamless and secure data entry process.
 
 https://github.com/user-attachments/assets/92f231c0-a00d-4484-868b-f359835988bd
