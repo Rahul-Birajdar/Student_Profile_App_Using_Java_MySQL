@@ -1,0 +1,3 @@
+Main-Class: pa.SPA
+Class-Path: jm.jar
+
