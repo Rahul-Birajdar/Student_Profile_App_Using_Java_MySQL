@@ -2,10 +2,10 @@
 
 Designed and developed a Java-based GUI application that captures and stores student profile information using the following technologies :
 
-✅ Java : Core programming language\n
-✅ Swing : For creating a user-friendly GUI
-✅ JDBC : For database connectivity
-✅ MySQL : To store student profiles
+✅ Java : Core programming language  
+✅ Swing : For creating a user-friendly GUI  
+✅ JDBC : For database connectivity  
+✅ MySQL : To store student profiles  
 
 💡Key Features :
 ✅ User-friendly interface to enter student details.
